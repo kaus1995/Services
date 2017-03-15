@@ -1,0 +1,40 @@
+<!Doctype html>
+    <html>
+        <head>
+            <meta charset= "utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body style="background-color:#6d7993;">
+            <div class="container-fluid">
+            <nav class="navbar navbar-fixed-top" style="background-color:#96858f;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a><img id="logo" src="assets/logo.png" alt="Handy Services" class="img-responsive"></a>
+                    </div>
+                </div>
+            </nav>
+            </div>
+            <div class="container-fluid">
+                <form method="post" action="userManagement.html">
+                    <div class="well col-xs-6" id="well1">
+                        <img id="logo1" src="assets/logo.png" alt="Handy Services" class="img-responsive">
+                        <div class=form-group>
+                            <input type="text" class="form-control" id="log" required placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="pwd" required placeholder="Password">
+                        </div>
+                        <a href="#" data-target="#pwdModal" data-toggle="modal" style="color:black;"><p class="h6"<small>Forgot password?</small></p></a>
+                        <button id="login" type="submit" class="btn btn-primary col-xs-3">Login</button>
+                        
+                        <i id="info" data-toggle="tooltip" data-placement="right" title="Info" class="fa fa-info-circle fa-lg"></i>
+                    </div>
+                </form>
+            </div>
+        </body>
+    </html>

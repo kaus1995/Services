@@ -1,0 +1,45 @@
+<!Doctype html>
+    <html>
+        <head>
+            <meta charset= "utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/modal.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="/js/handy.js"></script>
+        </head>
+        <body style="background-color:#6d7993;">
+            <nav class="navbar navbar-fixed-top" style="background-color:#96858f;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a><img id="logo" src="assets/logo.png" alt="Handy Services"></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <form method="" action="">
+                    <div class="well row" id="well2">
+                        <button id="btnAdd" type="submit" class="btn col-xs 2 btn-primary">Add</button>
+                    </div>
+                </form>
+            </div>
+            <div id="popupContact container-fluid" class="modal">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form action="#" id="form" method="post" name="form">
+                            
+                            <h2>Contact Us</h2>
+                            <hr>
+                            <input id="name" name="name" placeholder="Name" type="text">
+                            <input id="email" name="email" placeholder="Email" type="text">
+                            <textarea id="msg" name="message" placeholder="Message"></textarea>
+                            <a id="submit">Send</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
